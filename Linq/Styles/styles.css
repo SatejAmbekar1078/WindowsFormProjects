@@ -1,0 +1,200 @@
+﻿/* Reset default browser styles */
+body, html, div, p, ul, ol, li, h1, h2, h3, h4, h5, h6, form, fieldset, input, textarea, button, table, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-weight: normal;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+/* Body and General Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Forms and Inputs */
+form {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type=text], input[type=date], select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=button], input[type=submit], button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    input[type=button]:hover, input[type=submit]:hover, button:hover {
+        background-color: #45a049;
+    }
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* GridView Styling */
+#gvEmployees {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+    #gvEmployees th, #gvEmployees td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+    #gvEmployees th {
+        background-color: #f2f2f2;
+    }
+
+    /* Buttons in GridView */
+    #gvEmployees .btnEdit, #gvEmployees .btnDelete {
+        padding: 5px 10px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+        #gvEmployees .btnEdit:hover, #gvEmployees .btnDelete:hover {
+            background-color: #45a049;
+        }
+
+/* Alerts and Messages */
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.alert-success {
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    color: #3c763d;
+}
+
+.alert-danger {
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    color: #a94442;
+}
+
+/* Datepicker styling */
+.ui-datepicker {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    background-color: #f0f0f0; /* Set the background color */
+    border: 1px solid #ccc; /* Add a border for clarity */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for depth */
+}
+
+.ui-datepicker-header {
+    background-color: #4CAF50; /* Header background color */
+    color: #fff; /* Header text color */
+    border: none;
+}
+
+.ui-datepicker-title {
+    font-weight: bold;
+    margin: 0;
+}
+
+.ui-datepicker-prev, .ui-datepicker-next {
+    background-color: #4CAF50; /* Prev/Next button background color */
+    color: #fff; /* Prev/Next button text color */
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+    .ui-datepicker-prev:hover, .ui-datepicker-next:hover {
+        background-color: #45a049; /* Hover background color */
+    }
+
+.ui-datepicker-calendar {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .ui-datepicker-calendar th, .ui-datepicker-calendar td {
+        padding: 8px;
+        text-align: center;
+        border: 1px solid #ddd;
+    }
+
+    .ui-datepicker-calendar th {
+        background-color: #f2f2f2; /* Table header background color */
+    }
+
+    .ui-datepicker-calendar .ui-state-default {
+        background-color: #fff; /* Default date background color */
+        color: #333; /* Default date text color */
+    }
+
+        .ui-datepicker-calendar .ui-state-default:hover {
+            background-color: #e6e6e6; /* Hover date background color */
+            color: #333; /* Hover date text color */
+            cursor: pointer;
+        }
+
+    .ui-datepicker-calendar .ui-datepicker-current-day {
+        background-color: #4CAF50; /* Today's date background color */
+        color: #fff; /* Today's date text color */
+        font-weight: bold;
+    }
+
+    .ui-datepicker-calendar .ui-datepicker-unselectable {
+        color: #ccc; /* Unselectable date text color */
+        cursor: default;
+    }

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EmpModelStoreContainer" CdmEntityContainer="EmpEntities">
+    <EntitySetMapping Name="employees">
+      <EntityTypeMapping TypeName="EmpModel.employee">
+        <MappingFragment StoreEntitySet="employees">
+          <ScalarProperty Name="emp_id" ColumnName="emp_id" />
+          <ScalarProperty Name="Emp_name" ColumnName="Emp_name" />
+          <ScalarProperty Name="DOB" ColumnName="DOB" />
+          <ScalarProperty Name="Emp_Role" ColumnName="Emp_Role" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="AddEmployee" FunctionName="EmpModel.Store.AddEmployee" />
+    <FunctionImportMapping FunctionImportName="DeleteEmployee" FunctionName="EmpModel.Store.DeleteEmployee" />
+    <FunctionImportMapping FunctionImportName="GetEmployees" FunctionName="EmpModel.Store.GetEmployees">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="EmpModel.GetEmployees_Result">
+          <ScalarProperty Name="emp_id" ColumnName="emp_id" />
+          <ScalarProperty Name="Emp_name" ColumnName="Emp_name" />
+          <ScalarProperty Name="DOB" ColumnName="DOB" />
+          <ScalarProperty Name="Emp_Role" ColumnName="Emp_Role" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="UpdateEmployee" FunctionName="EmpModel.Store.UpdateEmployee" />
+  </EntityContainerMapping>
+</Mapping>

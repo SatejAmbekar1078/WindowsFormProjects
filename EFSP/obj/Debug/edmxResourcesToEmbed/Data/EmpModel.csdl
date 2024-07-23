@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EmpModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="employee">
+    <Key>
+      <PropertyRef Name="emp_id" />
+    </Key>
+    <Property Name="emp_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Emp_name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DOB" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Emp_Role" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="EmpEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="employees" EntityType="Self.employee" />
+    <FunctionImport Name="AddEmployee">
+      <Parameter Name="Emp_name" Mode="In" Type="String" />
+      <Parameter Name="DOB" Mode="In" Type="DateTime" />
+      <Parameter Name="Emp_Role" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="DeleteEmployee">
+      <Parameter Name="emp_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="GetEmployees" ReturnType="Collection(EmpModel.GetEmployees_Result)" />
+    <FunctionImport Name="UpdateEmployee">
+      <Parameter Name="emp_id" Mode="In" Type="Int32" />
+      <Parameter Name="Emp_name" Mode="In" Type="String" />
+      <Parameter Name="DOB" Mode="In" Type="DateTime" />
+      <Parameter Name="Emp_Role" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="GetEmployees_Result">
+    <Property Type="Int32" Name="emp_id" Nullable="false" />
+    <Property Type="String" Name="Emp_name" Nullable="false" MaxLength="50" />
+    <Property Type="DateTime" Name="DOB" Nullable="false" />
+    <Property Type="String" Name="Emp_Role" Nullable="false" MaxLength="50" />
+  </ComplexType>
+</Schema>

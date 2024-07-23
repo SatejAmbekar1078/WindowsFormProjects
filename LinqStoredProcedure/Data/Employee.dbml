@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Linq" Class="EmployeeDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Table Name="dbo.employees" Member="employees">
+    <Type Name="employee">
+      <Column Name="emp_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Emp_name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="DOB" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Emp_Role" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Function Name="dbo.AddEmployee" Method="AddEmployee">
+    <Parameter Name="Emp_name" Parameter="emp_name" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="DOB" Parameter="dOB" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="Emp_Role" Parameter="emp_Role" Type="System.String" DbType="NVarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.DeleteEmployee" Method="DeleteEmployee">
+    <Parameter Name="emp_id" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.GetEmployees" Method="GetEmployees">
+    <ElementType Name="GetEmployeesResult">
+      <Column Name="emp_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Emp_name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="DOB" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Emp_Role" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.GetEmployeesByRole" Method="GetEmployeesByRole">
+    <Parameter Name="Role" Parameter="role" Type="System.String" DbType="NVarChar(50)" />
+    <ElementType Name="GetEmployeesByRoleResult">
+      <Column Name="emp_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Emp_name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="DOB" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Emp_Role" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.UpdateEmployee" Method="UpdateEmployee">
+    <Parameter Name="emp_id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Emp_name" Parameter="emp_name" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="DOB" Parameter="dOB" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="Emp_Role" Parameter="emp_Role" Type="System.String" DbType="NVarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>
