@@ -39,3 +39,44 @@ D:\ASP.NET\Projects\Linq\obj\Debug\Linq.csproj.CoreCompileInputs.cache
 D:\ASP.NET\Projects\Linq\obj\Debug\Linq.csproj.Up2Date
 D:\ASP.NET\Projects\Linq\obj\Debug\Linq.dll
 D:\ASP.NET\Projects\Linq\obj\Debug\Linq.pdb
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\Linq\bin\Linq.dll.config
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\Linq\bin\Linq.dll
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\Linq\bin\Linq.pdb
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\Linq\bin\roslyn\csc.exe
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\Linq\bin\roslyn\csc.exe.config
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\Linq\bin\roslyn\csc.rsp
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\Linq\bin\roslyn\csi.exe
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\Linq\bin\roslyn\csi.exe.config
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\Linq\bin\roslyn\csi.rsp
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\Linq\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\Linq\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\Linq\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\Linq\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\Linq\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\Linq\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\Linq\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\Linq\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\Linq\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\Linq\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\Linq\bin\roslyn\Microsoft.Managed.Core.targets
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\Linq\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\Linq\bin\roslyn\System.Buffers.dll
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\Linq\bin\roslyn\System.Collections.Immutable.dll
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\Linq\bin\roslyn\System.Memory.dll
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\Linq\bin\roslyn\System.Numerics.Vectors.dll
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\Linq\bin\roslyn\System.Reflection.Metadata.dll
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\Linq\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\Linq\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\Linq\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\Linq\bin\roslyn\vbc.exe
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\Linq\bin\roslyn\vbc.exe.config
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\Linq\bin\roslyn\vbc.rsp
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\Linq\bin\roslyn\VBCSCompiler.exe
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\Linq\bin\roslyn\VBCSCompiler.exe.config
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\Linq\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\Linq\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\Linq\obj\Debug\Linq.csproj.AssemblyReference.cache
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\Linq\obj\Debug\Linq.csproj.CoreCompileInputs.cache
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\Linq\obj\Debug\Linq.csproj.Up2Date
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\Linq\obj\Debug\Linq.dll
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\Linq\obj\Debug\Linq.pdb
