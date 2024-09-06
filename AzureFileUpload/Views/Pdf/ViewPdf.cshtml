@@ -1,0 +1,164 @@
+﻿@{
+    ViewData["Title"] = "View PDF";
+    var pdfUrl = ViewData["PdfUrl"] as string;
+    var fileName = ViewData["FileName"] as string; 
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@fileName</title>
+    <style>
+        .print-hide {
+            display: none !important;
+        }
+    </style>
+</head>
+<body>
+    <h2>@fileName</h2>
+    <div id="pdf-viewer-container" style="text-align: center;">
+        <canvas id="pdf-canvas" style="border: 1px solid black; max-width: 100%;"></canvas>
+    </div>
+
+    <div style="text-align: center; margin-top: 10px;">
+        <button id="prev-page">Previous</button>
+        <button id="next-page">Next</button>
+        <span>Page <span id="page-num"></span> of <span id="page-count"></span></span>
+    </div>
+    <script>
+        window.addEventListener('beforeunload', function () {
+            fetch('/Pdf/DeleteTempFile', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ fileName: '@fileName' })
+            });
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.14.305/pdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.14.305/pdf.worker.min.js"></script>
+
+    <script>
+        const pdfUrl = '@Url.Content(pdfUrl)';
+        const fileName = '@fileName'; 
+
+        document.title = fileName;
+
+        let pdfDoc = null,
+            pageNum = 1,
+            pageIsRendering = false,
+            pageNumIsPending = null;
+
+        const scale = 1.5; 
+        const canvas = document.getElementById('pdf-canvas');
+        const ctx = canvas.getContext('2d');
+
+        canvas.addEventListener('contextmenu', function (event) {
+            event.preventDefault();
+        });
+
+        pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+            pdfDoc = pdf;
+            document.getElementById('page-count').textContent = pdf.numPages;
+            renderPage(pageNum);
+        }).catch(error => {
+            console.error('Error loading PDF:', error);
+            alert('Error loading PDF. Please try again later.');
+        });
+
+        function renderPage(num) {
+            pageIsRendering = true;
+
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            pdfDoc.getPage(num).then(page => {
+                const viewport = page.getViewport({ scale });
+                canvas.height = viewport.height;
+                canvas.width = viewport.width;
+
+                const renderContext = {
+                    canvasContext: ctx,
+                    viewport: viewport
+                };
+                const renderTask = page.render(renderContext);
+
+                renderTask.promise.then(() => {
+                    pageIsRendering = false;
+                    if (pageNumIsPending !== null) {
+                        renderPage(pageNumIsPending);
+                        pageNumIsPending = null;
+                    }
+                });
+
+                document.getElementById('page-num').textContent = num;
+            }).catch(error => {
+                console.error('Error rendering page:', error);
+                alert('Error rendering page. Please try again later.');
+            });
+
+            if (pageIsRendering) {
+                pageNumIsPending = num;
+            }
+        }
+
+        document.getElementById('prev-page').addEventListener('click', () => {
+            if (pageNum <= 1) return;
+            pageNum--;
+            renderPage(pageNum);
+        });
+
+        document.getElementById('next-page').addEventListener('click', () => {
+            if (pageNum >= pdfDoc.numPages) return;
+            pageNum++;
+            renderPage(pageNum);
+        });
+
+        window.addEventListener('beforeprint', () => {
+            document.getElementById('pdf-viewer-container').classList.add('print-hide');
+            document.getElementById('prev-page').classList.add('print-hide');
+            document.getElementById('next-page').classList.add('print-hide');
+        });
+
+        window.addEventListener('afterprint', () => {
+            document.getElementById('pdf-viewer-container').classList.remove('print-hide');
+            document.getElementById('prev-page').classList.remove('print-hide');
+            document.getElementById('next-page').classList.remove('print-hide');
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+@*  
+ @{
+    ViewData["Title"] = "View PDF";
+    var pdfUrl = ViewData["PdfUrl"] as string;
+}
+
+<h2>View PDF</h2>
+
+@if (!string.IsNullOrEmpty(pdfUrl))
+{
+    <object data="@pdfUrl" type="application/pdf" width="100%" height="800px">
+        <p>Your browser does not support PDFs.</p>
+    </object>
+}
+else
+{
+    <p>No PDF found or URL is invalid.</p>
+} *@
+@* @{
+    ViewData["Title"] = "View PDF";
+    var pdfUrl = ViewData["PdfUrl"] as string;
+}
+
+<h2>View PDF</h2>
+
+<!-- Embed the PDF using the relative URL from ViewData -->
+<embed src="@pdfUrl" type="application/pdf" width="100%" height="800px" />
+ *@

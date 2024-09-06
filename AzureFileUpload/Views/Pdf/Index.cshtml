@@ -1,0 +1,26 @@
+﻿@model IEnumerable<AzureFileUpload.Models.PdfFile>
+
+@{
+    ViewData["Title"] = "View PDFs";
+}
+
+<h2>PDF List</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>File Name</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var pdf in Model)
+        {
+            <tr>
+                <td>@pdf.FileName</td>
+                <td>
+                    <a asp-action="ViewPdf" asp-controller="Pdf" asp-route-fileName="@pdf.FileName">View</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

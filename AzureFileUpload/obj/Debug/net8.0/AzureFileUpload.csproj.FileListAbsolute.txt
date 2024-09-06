@@ -1,0 +1,100 @@
+D:\ASP.NET\Projects\AzureFileUpload\obj\Debug\net8.0\AzureFileUpload.csproj.AssemblyReference.cache
+D:\ASP.NET\Projects\AzureFileUpload\obj\Debug\net8.0\AzureFileUpload.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP.NET\Projects\AzureFileUpload\obj\Debug\net8.0\AzureFileUpload.AssemblyInfoInputs.cache
+D:\ASP.NET\Projects\AzureFileUpload\obj\Debug\net8.0\AzureFileUpload.AssemblyInfo.cs
+D:\ASP.NET\Projects\AzureFileUpload\obj\Debug\net8.0\AzureFileUpload.csproj.CoreCompileInputs.cache
+D:\ASP.NET\Projects\AzureFileUpload\obj\Debug\net8.0\AzureFileUpload.MvcApplicationPartsAssemblyInfo.cache
+D:\ASP.NET\Projects\AzureFileUpload\obj\Debug\net8.0\AzureFileUpload.RazorAssemblyInfo.cache
+D:\ASP.NET\Projects\AzureFileUpload\obj\Debug\net8.0\AzureFileUpload.RazorAssemblyInfo.cs
+D:\ASP.NET\Projects\AzureFileUpload\obj\Debug\net8.0\AzureFileUpload.sourcelink.json
+D:\ASP.NET\Projects\AzureFileUpload\bin\Debug\net8.0\appsettings.Development.json
+D:\ASP.NET\Projects\AzureFileUpload\bin\Debug\net8.0\appsettings.json
+D:\ASP.NET\Projects\AzureFileUpload\bin\Debug\net8.0\AzureFileUpload.staticwebassets.runtime.json
+D:\ASP.NET\Projects\AzureFileUpload\bin\Debug\net8.0\AzureFileUpload.exe
+D:\ASP.NET\Projects\AzureFileUpload\bin\Debug\net8.0\AzureFileUpload.deps.json
+D:\ASP.NET\Projects\AzureFileUpload\bin\Debug\net8.0\AzureFileUpload.runtimeconfig.json
+D:\ASP.NET\Projects\AzureFileUpload\bin\Debug\net8.0\AzureFileUpload.dll
+D:\ASP.NET\Projects\AzureFileUpload\bin\Debug\net8.0\AzureFileUpload.pdb
+D:\ASP.NET\Projects\AzureFileUpload\bin\Debug\net8.0\Azure.Core.dll
+D:\ASP.NET\Projects\AzureFileUpload\bin\Debug\net8.0\Azure.Storage.Blobs.dll
+D:\ASP.NET\Projects\AzureFileUpload\bin\Debug\net8.0\Azure.Storage.Common.dll
+D:\ASP.NET\Projects\AzureFileUpload\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ASP.NET\Projects\AzureFileUpload\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\ASP.NET\Projects\AzureFileUpload\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\ASP.NET\Projects\AzureFileUpload\bin\Debug\net8.0\System.ClientModel.dll
+D:\ASP.NET\Projects\AzureFileUpload\bin\Debug\net8.0\System.IO.Hashing.dll
+D:\ASP.NET\Projects\AzureFileUpload\bin\Debug\net8.0\System.Memory.Data.dll
+D:\ASP.NET\Projects\AzureFileUpload\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\ASP.NET\Projects\AzureFileUpload\obj\Debug\net8.0\staticwebassets.build.json
+D:\ASP.NET\Projects\AzureFileUpload\obj\Debug\net8.0\staticwebassets.development.json
+D:\ASP.NET\Projects\AzureFileUpload\obj\Debug\net8.0\staticwebassets\msbuild.AzureFileUpload.Microsoft.AspNetCore.StaticWebAssets.props
+D:\ASP.NET\Projects\AzureFileUpload\obj\Debug\net8.0\staticwebassets\msbuild.build.AzureFileUpload.props
+D:\ASP.NET\Projects\AzureFileUpload\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.AzureFileUpload.props
+D:\ASP.NET\Projects\AzureFileUpload\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.AzureFileUpload.props
+D:\ASP.NET\Projects\AzureFileUpload\obj\Debug\net8.0\staticwebassets.pack.json
+D:\ASP.NET\Projects\AzureFileUpload\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\ASP.NET\Projects\AzureFileUpload\obj\Debug\net8.0\scopedcss\bundle\AzureFileUpload.styles.css
+D:\ASP.NET\Projects\AzureFileUpload\obj\Debug\net8.0\scopedcss\projectbundle\AzureFileUpload.bundle.scp.css
+D:\ASP.NET\Projects\AzureFileUpload\obj\Debug\net8.0\AzureFil.52C054A2.Up2Date
+D:\ASP.NET\Projects\AzureFileUpload\obj\Debug\net8.0\AzureFileUpload.dll
+D:\ASP.NET\Projects\AzureFileUpload\obj\Debug\net8.0\refint\AzureFileUpload.dll
+D:\ASP.NET\Projects\AzureFileUpload\obj\Debug\net8.0\AzureFileUpload.pdb
+D:\ASP.NET\Projects\AzureFileUpload\obj\Debug\net8.0\AzureFileUpload.genruntimeconfig.cache
+D:\ASP.NET\Projects\AzureFileUpload\obj\Debug\net8.0\ref\AzureFileUpload.dll
+D:\ASP.NET\Projects\AzureFileUpload\bin\Debug\net8.0\Azure.Core.Experimental.dll
+D:\ASP.NET\Projects\AzureFileUpload\bin\Debug\net8.0\Azure.Identity.dll
+D:\ASP.NET\Projects\AzureFileUpload\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\ASP.NET\Projects\AzureFileUpload\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\ASP.NET\Projects\AzureFileUpload\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\ASP.NET\Projects\AzureFileUpload\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\ASP.NET\Projects\AzureFileUpload\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\AzureFileUpload\bin\Debug\net8.0\appsettings.Development.json
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\AzureFileUpload\bin\Debug\net8.0\appsettings.json
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\AzureFileUpload\bin\Debug\net8.0\AzureFileUpload.staticwebassets.runtime.json
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\AzureFileUpload\bin\Debug\net8.0\AzureFileUpload.exe
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\AzureFileUpload\bin\Debug\net8.0\AzureFileUpload.deps.json
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\AzureFileUpload\bin\Debug\net8.0\AzureFileUpload.runtimeconfig.json
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\AzureFileUpload\bin\Debug\net8.0\AzureFileUpload.dll
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\AzureFileUpload\bin\Debug\net8.0\AzureFileUpload.pdb
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\AzureFileUpload\bin\Debug\net8.0\Azure.Core.dll
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\AzureFileUpload\bin\Debug\net8.0\Azure.Core.Experimental.dll
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\AzureFileUpload\bin\Debug\net8.0\Azure.Identity.dll
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\AzureFileUpload\bin\Debug\net8.0\Azure.Storage.Blobs.dll
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\AzureFileUpload\bin\Debug\net8.0\Azure.Storage.Common.dll
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\AzureFileUpload\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\AzureFileUpload\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\AzureFileUpload\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\AzureFileUpload\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\AzureFileUpload\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\AzureFileUpload\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\AzureFileUpload\bin\Debug\net8.0\System.ClientModel.dll
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\AzureFileUpload\bin\Debug\net8.0\System.IO.Hashing.dll
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\AzureFileUpload\bin\Debug\net8.0\System.Memory.Data.dll
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\AzureFileUpload\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\AzureFileUpload\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\AzureFileUpload\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\AzureFileUpload\obj\Debug\net8.0\AzureFileUpload.csproj.AssemblyReference.cache
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\AzureFileUpload\obj\Debug\net8.0\AzureFileUpload.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\AzureFileUpload\obj\Debug\net8.0\AzureFileUpload.AssemblyInfoInputs.cache
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\AzureFileUpload\obj\Debug\net8.0\AzureFileUpload.AssemblyInfo.cs
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\AzureFileUpload\obj\Debug\net8.0\AzureFileUpload.csproj.CoreCompileInputs.cache
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\AzureFileUpload\obj\Debug\net8.0\AzureFileUpload.MvcApplicationPartsAssemblyInfo.cache
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\AzureFileUpload\obj\Debug\net8.0\AzureFileUpload.RazorAssemblyInfo.cache
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\AzureFileUpload\obj\Debug\net8.0\AzureFileUpload.RazorAssemblyInfo.cs
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\AzureFileUpload\obj\Debug\net8.0\AzureFileUpload.sourcelink.json
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\AzureFileUpload\obj\Debug\net8.0\staticwebassets.build.json
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\AzureFileUpload\obj\Debug\net8.0\staticwebassets.development.json
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\AzureFileUpload\obj\Debug\net8.0\staticwebassets\msbuild.AzureFileUpload.Microsoft.AspNetCore.StaticWebAssets.props
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\AzureFileUpload\obj\Debug\net8.0\staticwebassets\msbuild.build.AzureFileUpload.props
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\AzureFileUpload\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.AzureFileUpload.props
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\AzureFileUpload\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.AzureFileUpload.props
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\AzureFileUpload\obj\Debug\net8.0\staticwebassets.pack.json
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\AzureFileUpload\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\AzureFileUpload\obj\Debug\net8.0\scopedcss\bundle\AzureFileUpload.styles.css
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\AzureFileUpload\obj\Debug\net8.0\scopedcss\projectbundle\AzureFileUpload.bundle.scp.css
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\AzureFileUpload\obj\Debug\net8.0\AzureFil.52C054A2.Up2Date
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\AzureFileUpload\obj\Debug\net8.0\AzureFileUpload.dll
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\AzureFileUpload\obj\Debug\net8.0\refint\AzureFileUpload.dll
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\AzureFileUpload\obj\Debug\net8.0\AzureFileUpload.pdb
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\AzureFileUpload\obj\Debug\net8.0\AzureFileUpload.genruntimeconfig.cache
+D:\ASP.NET\Git Repo 1078\WindowsFormProjects\AzureFileUpload\obj\Debug\net8.0\ref\AzureFileUpload.dll
