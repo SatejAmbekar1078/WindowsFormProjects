@@ -6,11 +6,14 @@ using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Add services to the container.
 builder.Services.AddControllersWithViews();
 
+// Retrieve connection string and container name from configuration
 var connectionString = builder.Configuration.GetConnectionString("AzureBlobStorage");
-var containerName = "democontainer"; 
+var containerName = "democontainer"; // Ensure this matches the name used in your PdfRepository
 
+// Register BlobServiceClient and PdfRepository with dependencies
 builder.Services.AddSingleton(new BlobServiceClient(connectionString));
 builder.Services.AddSingleton<IPdfRepository>(provider =>
     new PdfRepository(connectionString, containerName));
@@ -23,16 +26,17 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
         options.LogoutPath = "/Account/Logout";
     });
 
-builder.Services.AddDistributedMemoryCache(); 
+builder.Services.AddDistributedMemoryCache(); // Adds a default in-memory implementation of IDistributedCache
 builder.Services.AddSession(options =>
 {
-    options.IdleTimeout = TimeSpan.FromMinutes(30); 
-    options.Cookie.HttpOnly = true;
-    options.Cookie.IsEssential = true; 
+    options.IdleTimeout = TimeSpan.FromMinutes(30); // Set the session timeout
+    options.Cookie.HttpOnly = true; // Make the session cookie HttpOnly
+    options.Cookie.IsEssential = true; // Make the session cookie essential
 });
 
 var app = builder.Build();
 
+// Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");

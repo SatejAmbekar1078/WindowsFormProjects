@@ -9,23 +9,27 @@
 <head>
     <title>@fileName</title>
     <style>
+        /* Hide elements for print with JavaScript */
         .print-hide {
             display: none !important;
         }
     </style>
 </head>
 <body>
-    <h2>@fileName</h2>
+    <h2>@fileName</h2> <!-- Display file name as heading -->
+    <!-- Container for the PDF viewer -->
     <div id="pdf-viewer-container" style="text-align: center;">
         <canvas id="pdf-canvas" style="border: 1px solid black; max-width: 100%;"></canvas>
     </div>
 
+    <!-- Navigation Controls -->
     <div style="text-align: center; margin-top: 10px;">
         <button id="prev-page">Previous</button>
         <button id="next-page">Next</button>
         <span>Page <span id="page-num"></span> of <span id="page-count"></span></span>
     </div>
     <script>
+        // Detect when the page is being unloaded (e.g., user navigates away or closes the tab)
         window.addEventListener('beforeunload', function () {
             fetch('/Pdf/DeleteTempFile', {
                 method: 'POST',
@@ -36,13 +40,15 @@
             });
         });
     </script>
+    <!-- Include PDF.js Library -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.14.305/pdf.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.14.305/pdf.worker.min.js"></script>
 
     <script>
-        const pdfUrl = '@Url.Content(pdfUrl)';
-        const fileName = '@fileName'; 
+        const pdfUrl = '@Url.Content(pdfUrl)'; // Local URL of the PDF in wwwroot/Pdfs folder
+        const fileName = '@fileName'; // PDF file name
 
+        // Set the page title to the file name
         document.title = fileName;
 
         let pdfDoc = null,
@@ -50,14 +56,16 @@
             pageIsRendering = false,
             pageNumIsPending = null;
 
-        const scale = 1.5; 
+        const scale = 1.5; // Scale of the PDF
         const canvas = document.getElementById('pdf-canvas');
         const ctx = canvas.getContext('2d');
 
+        // Disable right-click on the canvas
         canvas.addEventListener('contextmenu', function (event) {
             event.preventDefault();
         });
 
+        // Load the PDF with PDF.js directly
         pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
             pdfDoc = pdf;
             document.getElementById('page-count').textContent = pdf.numPages;
@@ -67,22 +75,27 @@
             alert('Error loading PDF. Please try again later.');
         });
 
+        // Render the page
         function renderPage(num) {
             pageIsRendering = true;
 
+            // Clear the canvas
             ctx.clearRect(0, 0, canvas.width, canvas.height);
 
+            // Get page
             pdfDoc.getPage(num).then(page => {
                 const viewport = page.getViewport({ scale });
                 canvas.height = viewport.height;
                 canvas.width = viewport.width;
 
+                // Render PDF page into canvas context
                 const renderContext = {
                     canvasContext: ctx,
                     viewport: viewport
                 };
                 const renderTask = page.render(renderContext);
 
+                // Wait for rendering to finish
                 renderTask.promise.then(() => {
                     pageIsRendering = false;
                     if (pageNumIsPending !== null) {
@@ -91,29 +104,34 @@
                     }
                 });
 
+                // Update page number
                 document.getElementById('page-num').textContent = num;
             }).catch(error => {
                 console.error('Error rendering page:', error);
                 alert('Error rendering page. Please try again later.');
             });
 
+            // If another page is being rendered, wait until it's finished
             if (pageIsRendering) {
                 pageNumIsPending = num;
             }
         }
 
+        // Show previous page
         document.getElementById('prev-page').addEventListener('click', () => {
             if (pageNum <= 1) return;
             pageNum--;
             renderPage(pageNum);
         });
 
+        // Show next page
         document.getElementById('next-page').addEventListener('click', () => {
             if (pageNum >= pdfDoc.numPages) return;
             pageNum++;
             renderPage(pageNum);
         });
 
+        // Add event listener for print
         window.addEventListener('beforeprint', () => {
             document.getElementById('pdf-viewer-container').classList.add('print-hide');
             document.getElementById('prev-page').classList.add('print-hide');

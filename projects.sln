@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqStoredProcedure", "Linq
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureFileUpload", "AzureFileUpload\AzureFileUpload.csproj", "{AB430DDE-0A51-4230-93C4-E5542A0220F9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWebApplication", "BlazorWebApplication\BlazorWebApplication.csproj", "{59AED45B-24E2-4011-ABE7-A200E3F1F1EC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{AB430DDE-0A51-4230-93C4-E5542A0220F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB430DDE-0A51-4230-93C4-E5542A0220F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB430DDE-0A51-4230-93C4-E5542A0220F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59AED45B-24E2-4011-ABE7-A200E3F1F1EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59AED45B-24E2-4011-ABE7-A200E3F1F1EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59AED45B-24E2-4011-ABE7-A200E3F1F1EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59AED45B-24E2-4011-ABE7-A200E3F1F1EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

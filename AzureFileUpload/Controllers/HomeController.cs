@@ -45,6 +45,7 @@ namespace AzureFileUpload.Controllers
                     }
                     catch (Exception ex)
                     {
+                        // Log the exception or handle it as needed
                         ViewData["Message"] = "An error occurred while uploading the file.";
                     }
                 }

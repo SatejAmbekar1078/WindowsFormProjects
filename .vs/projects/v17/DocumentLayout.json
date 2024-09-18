@@ -3,36 +3,20 @@
   "WorkspaceRootPath": "D:\\ASP.NET\\Git Repo 1078\\WindowsFormProjects\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AB430DDE-0A51-4230-93C4-E5542A0220F9}|AzureFileUpload\\AzureFileUpload.csproj|d:\\asp.net\\git repo 1078\\windowsformprojects\\azurefileupload\\views\\pdf\\viewpdf.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AB430DDE-0A51-4230-93C4-E5542A0220F9}|AzureFileUpload\\AzureFileUpload.csproj|solutionrelative:azurefileupload\\views\\pdf\\viewpdf.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{59AED45B-24E2-4011-ABE7-A200E3F1F1EC}|BlazorWebApplication\\BlazorWebApplication.csproj|d:\\asp.net\\git repo 1078\\windowsformprojects\\blazorwebapplication\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59AED45B-24E2-4011-ABE7-A200E3F1F1EC}|BlazorWebApplication\\BlazorWebApplication.csproj|solutionrelative:blazorwebapplication\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB430DDE-0A51-4230-93C4-E5542A0220F9}|AzureFileUpload\\AzureFileUpload.csproj|d:\\asp.net\\git repo 1078\\windowsformprojects\\azurefileupload\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AB430DDE-0A51-4230-93C4-E5542A0220F9}|AzureFileUpload\\AzureFileUpload.csproj|solutionrelative:azurefileupload\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{59AED45B-24E2-4011-ABE7-A200E3F1F1EC}|BlazorWebApplication\\BlazorWebApplication.csproj|d:\\asp.net\\git repo 1078\\windowsformprojects\\blazorwebapplication\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59AED45B-24E2-4011-ABE7-A200E3F1F1EC}|BlazorWebApplication\\BlazorWebApplication.csproj|solutionrelative:blazorwebapplication\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB430DDE-0A51-4230-93C4-E5542A0220F9}|AzureFileUpload\\AzureFileUpload.csproj|d:\\asp.net\\git repo 1078\\windowsformprojects\\azurefileupload\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AB430DDE-0A51-4230-93C4-E5542A0220F9}|AzureFileUpload\\AzureFileUpload.csproj|solutionrelative:azurefileupload\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{59AED45B-24E2-4011-ABE7-A200E3F1F1EC}|BlazorWebApplication\\BlazorWebApplication.csproj|d:\\asp.net\\git repo 1078\\windowsformprojects\\blazorwebapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59AED45B-24E2-4011-ABE7-A200E3F1F1EC}|BlazorWebApplication\\BlazorWebApplication.csproj|solutionrelative:blazorwebapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB430DDE-0A51-4230-93C4-E5542A0220F9}|AzureFileUpload\\AzureFileUpload.csproj|d:\\asp.net\\git repo 1078\\windowsformprojects\\azurefileupload\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AB430DDE-0A51-4230-93C4-E5542A0220F9}|AzureFileUpload\\AzureFileUpload.csproj|solutionrelative:azurefileupload\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB430DDE-0A51-4230-93C4-E5542A0220F9}|AzureFileUpload\\AzureFileUpload.csproj|d:\\asp.net\\git repo 1078\\windowsformprojects\\azurefileupload\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB430DDE-0A51-4230-93C4-E5542A0220F9}|AzureFileUpload\\AzureFileUpload.csproj|solutionrelative:azurefileupload\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB430DDE-0A51-4230-93C4-E5542A0220F9}|AzureFileUpload\\AzureFileUpload.csproj|d:\\asp.net\\git repo 1078\\windowsformprojects\\azurefileupload\\controllers\\pdfcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB430DDE-0A51-4230-93C4-E5542A0220F9}|AzureFileUpload\\AzureFileUpload.csproj|solutionrelative:azurefileupload\\controllers\\pdfcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB430DDE-0A51-4230-93C4-E5542A0220F9}|AzureFileUpload\\AzureFileUpload.csproj|d:\\asp.net\\git repo 1078\\windowsformprojects\\azurefileupload\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB430DDE-0A51-4230-93C4-E5542A0220F9}|AzureFileUpload\\AzureFileUpload.csproj|solutionrelative:azurefileupload\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB430DDE-0A51-4230-93C4-E5542A0220F9}|AzureFileUpload\\AzureFileUpload.csproj|d:\\asp.net\\git repo 1078\\windowsformprojects\\azurefileupload\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB430DDE-0A51-4230-93C4-E5542A0220F9}|AzureFileUpload\\AzureFileUpload.csproj|solutionrelative:azurefileupload\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{59AED45B-24E2-4011-ABE7-A200E3F1F1EC}|BlazorWebApplication\\BlazorWebApplication.csproj|d:\\asp.net\\git repo 1078\\windowsformprojects\\blazorwebapplication\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59AED45B-24E2-4011-ABE7-A200E3F1F1EC}|BlazorWebApplication\\BlazorWebApplication.csproj|solutionrelative:blazorwebapplication\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -75,105 +59,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ViewPdf.cshtml",
-              "DocumentMoniker": "D:\\ASP.NET\\Git Repo 1078\\WindowsFormProjects\\AzureFileUpload\\Views\\Pdf\\ViewPdf.cshtml",
-              "RelativeDocumentMoniker": "AzureFileUpload\\Views\\Pdf\\ViewPdf.cshtml",
-              "ToolTip": "D:\\ASP.NET\\Git Repo 1078\\WindowsFormProjects\\AzureFileUpload\\Views\\Pdf\\ViewPdf.cshtml",
-              "RelativeToolTip": "AzureFileUpload\\Views\\Pdf\\ViewPdf.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHQAAAAAAAAAAAAAAA==",
+              "Title": "Weather.razor",
+              "DocumentMoniker": "D:\\ASP.NET\\Git Repo 1078\\WindowsFormProjects\\BlazorWebApplication\\Components\\Pages\\Weather.razor",
+              "RelativeDocumentMoniker": "BlazorWebApplication\\Components\\Pages\\Weather.razor",
+              "ToolTip": "D:\\ASP.NET\\Git Repo 1078\\WindowsFormProjects\\BlazorWebApplication\\Components\\Pages\\Weather.razor",
+              "RelativeToolTip": "BlazorWebApplication\\Components\\Pages\\Weather.razor",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-06T06:23:20.617Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "D:\\ASP.NET\\Git Repo 1078\\WindowsFormProjects\\AzureFileUpload\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "AzureFileUpload\\Views\\Account\\Login.cshtml",
-              "ToolTip": "D:\\ASP.NET\\Git Repo 1078\\WindowsFormProjects\\AzureFileUpload\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "AzureFileUpload\\Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-06T06:23:15.192Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "D:\\ASP.NET\\Git Repo 1078\\WindowsFormProjects\\AzureFileUpload\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "AzureFileUpload\\Views\\Home\\Privacy.cshtml",
-              "ToolTip": "D:\\ASP.NET\\Git Repo 1078\\WindowsFormProjects\\AzureFileUpload\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "AzureFileUpload\\Views\\Home\\Privacy.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-06T06:23:10.623Z",
+              "WhenOpened": "2024-09-18T12:14:34.309Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\ASP.NET\\Git Repo 1078\\WindowsFormProjects\\AzureFileUpload\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "AzureFileUpload\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\ASP.NET\\Git Repo 1078\\WindowsFormProjects\\AzureFileUpload\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "AzureFileUpload\\Views\\Home\\Index.cshtml",
+              "Title": "Routes.razor",
+              "DocumentMoniker": "D:\\ASP.NET\\Git Repo 1078\\WindowsFormProjects\\BlazorWebApplication\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "BlazorWebApplication\\Components\\Routes.razor",
+              "ToolTip": "D:\\ASP.NET\\Git Repo 1078\\WindowsFormProjects\\BlazorWebApplication\\Components\\Routes.razor",
+              "RelativeToolTip": "BlazorWebApplication\\Components\\Routes.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-06T06:23:07.881Z",
+              "WhenOpened": "2024-09-18T12:09:06.876Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\ASP.NET\\Git Repo 1078\\WindowsFormProjects\\AzureFileUpload\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "AzureFileUpload\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\ASP.NET\\Git Repo 1078\\WindowsFormProjects\\AzureFileUpload\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "AzureFileUpload\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T06:22:51.675Z",
+              "DocumentIndex": 1,
+              "Title": "Home.razor",
+              "DocumentMoniker": "D:\\ASP.NET\\Git Repo 1078\\WindowsFormProjects\\BlazorWebApplication\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "BlazorWebApplication\\Components\\Pages\\Home.razor",
+              "ToolTip": "D:\\ASP.NET\\Git Repo 1078\\WindowsFormProjects\\BlazorWebApplication\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "BlazorWebApplication\\Components\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-18T11:28:30.006Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\ASP.NET\\Git Repo 1078\\WindowsFormProjects\\AzureFileUpload\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "AzureFileUpload\\Controllers\\AccountController.cs",
-              "ToolTip": "D:\\ASP.NET\\Git Repo 1078\\WindowsFormProjects\\AzureFileUpload\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "AzureFileUpload\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T06:22:35.212Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\ASP.NET\\Git Repo 1078\\WindowsFormProjects\\AzureFileUpload\\Program.cs",
-              "RelativeDocumentMoniker": "AzureFileUpload\\Program.cs",
-              "ToolTip": "D:\\ASP.NET\\Git Repo 1078\\WindowsFormProjects\\AzureFileUpload\\Program.cs",
-              "RelativeToolTip": "AzureFileUpload\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\ASP.NET\\Git Repo 1078\\WindowsFormProjects\\BlazorWebApplication\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorWebApplication\\Program.cs",
+              "ToolTip": "D:\\ASP.NET\\Git Repo 1078\\WindowsFormProjects\\BlazorWebApplication\\Program.cs",
+              "RelativeToolTip": "BlazorWebApplication\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T06:20:41.013Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PdfController.cs",
-              "DocumentMoniker": "D:\\ASP.NET\\Git Repo 1078\\WindowsFormProjects\\AzureFileUpload\\Controllers\\PdfController.cs",
-              "RelativeDocumentMoniker": "AzureFileUpload\\Controllers\\PdfController.cs",
-              "ToolTip": "D:\\ASP.NET\\Git Repo 1078\\WindowsFormProjects\\AzureFileUpload\\Controllers\\PdfController.cs",
-              "RelativeToolTip": "AzureFileUpload\\Controllers\\PdfController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAGYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T06:20:28.1Z",
+              "WhenOpened": "2024-09-18T11:27:50.275Z",
               "EditorCaption": ""
             }
           ]

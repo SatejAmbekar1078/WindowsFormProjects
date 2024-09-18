@@ -16,8 +16,10 @@ namespace AzureFileUpload.Controllers
         {
             if (ModelState.IsValid)
             {
+                // Check if the provided credentials match the hardcoded ones
                 if (model.Username == "Admin" && model.Password == "12345")
                 {
+                    // Authentication successful
                     HttpContext.Session.SetString("Username", model.Username);
                     return RedirectToAction("Index", "Pdf");
                 }

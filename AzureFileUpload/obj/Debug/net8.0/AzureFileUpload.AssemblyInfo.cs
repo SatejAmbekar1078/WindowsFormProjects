@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AzureFileUpload")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+641a4a58152129ea64cd987e71e52b08b89c8ccb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c0c010821df5045b8627faddbac638afe9e3b641")]
 [assembly: System.Reflection.AssemblyProductAttribute("AzureFileUpload")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AzureFileUpload")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
